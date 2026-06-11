@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+}
+
+a {
+    color: cyan;
+}
+
+img {
+    width: 300px;
+}
+
+table {
+    width: 100%;
+}
