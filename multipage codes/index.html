@@ -22,13 +22,26 @@
 
 <hr>
 
-<h2>Welcome</h2>
-<p>this website gives simple information about gta san andreas and it helps the user understand the main idea of 
-  the game the website shows the story the main character and some picture from the game the goal is to make the 
-  information easy to read and clear for a beginner user the website is made in a simple way because the instructor 
-  asked us to use only basic html and css without advanced layout the design is made to look like the game style 
-  with dark color and bright link and simple text
-</p>
+<h2>welcome</h2>
+
+<p>this website gives simple information about gta san andreas and it helps the user understand the main idea of the game the website shows the story the main character and some picture from the game the goal is to make the information easy to read and clear for a beginner user the website is made in a simple way because the instructor asked us to use only basic html and css without advanced layout the design is made to look like the game style with dark color and bright link and simple text</p>
+
+<button onclick="changeColor()">change text color</button>
+
+<script>
+var colorList = ["cyan", "green", "red", "orange"];
+var index = 0;
+
+function changeColor() {
+    document.body.style.color = colorList[index];
+    index = index + 1;
+
+    if (index == colorList.length) {
+        index = 0;
+    }
+}
+</script>
+
 
 </body>
 </html>
