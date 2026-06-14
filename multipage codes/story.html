@@ -23,7 +23,29 @@
 <hr>
 
 <h2>The Story</h2>
-<p>cj comes back to los santos after his mother dies he meets his old friends and starts helping grove street again</p>
+<p>the story of gta san andreas is about cj who returns to los santos after the death of his mother and he tries to fix his life and help his family and his gang the story shows many place in the game like los santos san fierro and las venturas and each place has mission and character that help cj or fight him the game world is big and full of action and the player can explore street car and building the story also talks about trust family and betrayal and how cj must choose the right path to save grove street
+</p>
+<button onclick="nextLine()">next story line</button>
+<script>
+var storyList = [
+    "cj returns to los santos after a long time away",
+    "he finds his family broken and grove street in danger",
+    "cj starts helping his brother sweet to rebuild the gang",
+    "he faces many enemy and many problem in the city",
+    "cj travels to san fierro and las venturas to finish his mission"
+];
+
+var sIndex = 0;
+
+function nextLine() {
+    alert(storyList[sIndex]);
+    sIndex = sIndex + 1;
+
+    if (sIndex == storyList.length) {
+        sIndex = 0;
+    }
+}
+</script>
 
 </body>
 </html>
